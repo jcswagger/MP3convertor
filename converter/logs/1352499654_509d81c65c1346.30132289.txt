@@ -1,0 +1,41 @@
+ffmpeg version N-46469-gc995644 Copyright (c) 2000-2012 the FFmpeg developers
+  built on Nov  5 2012 17:58:15 with gcc 4.7.2 (GCC)
+  configuration: --enable-gpl --enable-version3 --disable-pthreads --enable-runtime-cpudetect --enable-avisynth --enable-bzlib --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-libnut --enable-libopenjpeg --enable-libopus --enable-librtmp --enable-libschroedinger --enable-libspeex --enable-libtheora --enable-libutvideo --enable-libvo-aacenc --enable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libxavs --enable-libxvid --enable-zlib
+  libavutil      52.  5.100 / 52.  5.100
+  libavcodec     54. 71.100 / 54. 71.100
+  libavformat    54. 36.100 / 54. 36.100
+  libavdevice    54.  3.100 / 54.  3.100
+  libavfilter     3. 21.106 /  3. 21.106
+  libswscale      2.  1.102 /  2.  1.102
+  libswresample   0. 16.100 /  0. 16.100
+  libpostproc    52.  1.100 / 52.  1.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '../converter/videos/1352499654_509d81c65c1346.30132289.flv':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2011-09-05 20:30:13
+  Duration: 00:04:10.63, start: 0.000000, bitrate: 728 kb/s
+    Stream #0:0(und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p, 626x360, 626 kb/s, 23.98 fps, 23.98 tbr, 1k tbn, 47.95 tbc
+    Metadata:
+      creation_time   : 1970-01-01 00:00:00
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (mp4a / 0x6134706D), 44100 Hz, stereo, s16, 95 kb/s
+    Metadata:
+      creation_time   : 2011-09-05 20:30:13
+      handler_name    : IsoMedia File Produced by Google, 5-11-2011
+Output #0, mp3, to '../converter/mp3/The_Notorious_BIG_-_Juicy_uuid-509d81c6def5d.mp3':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    TSSE            : Lavf54.36.100
+    Stream #0:0(und): Audio: mp3, 44100 Hz, stereo, s16p, 64 kb/s
+    Metadata:
+      creation_time   : 2011-09-05 20:30:13
+      handler_name    : IsoMedia File Produced by Google, 5-11-2011
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac -> libmp3lame)
+Press [q] to stop, [?] for help
+size=     181kB time=00:00:23.11 bitrate=  64.2kbits/s    size=     368kB time=00:00:47.07 bitrate=  64.1kbits/s    size=     543kB time=00:01:09.46 bitrate=  64.1kbits/s    size=     732kB time=00:01:33.59 bitrate=  64.0kbits/s    size=     920kB time=00:01:57.70 bitrate=  64.0kbits/s    size=    1097kB time=00:02:20.35 bitrate=  64.0kbits/s    size=    1286kB time=00:02:44.54 bitrate=  64.0kbits/s    size=    1462kB time=00:03:07.06 bitrate=  64.0kbits/s    size=    1652kB time=00:03:31.35 bitrate=  64.0kbits/s    size=    1841kB time=00:03:55.59 bitrate=  64.0kbits/s    size=    1958kB time=00:04:10.59 bitrate=  64.0kbits/s    
+video:0kB audio:1958kB subtitle:0 global headers:0kB muxing overhead 0.016759%
